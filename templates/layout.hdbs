@@ -3,6 +3,13 @@
   <h3>{{setting "name"}}</h3>
 </header>
 <section data-main/>
+<ul id="zData">
+    <li id="zTotal">100</li>
+    <li id="zEmail">30</li>
+    <li id="zFacebook">0</li>
+    <li id="zTwitter">10</li>
+    <li id="zPhone">60</li>
+</ul>
 <footer>
   <a href="mailto:{{author.email}}">
     {{author.name}}
